@@ -35,7 +35,7 @@ console.log(spanTitle.textContent);
 
 //querySelectorAll
 const paragraphAll = document.querySelectorAll('.paragraph')
-const paragraphAllSpread = [...document.querySelectorAll('.paragraph')] // El problema de spread operator que 
+const paragraphAllSpread = [...document.querySelectorAll('.paragraph')]
 const paragraphAllArray = Array.from(document.querySelectorAll('.paragraph'))
 
 paragraphAll[0].style.color = 'red' //No se da estilos de esta manera, es para demostración
