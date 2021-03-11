@@ -55,3 +55,4 @@ console.log(parent.parentElement.nextElementSibling); // Como parent (ul) no tie
 console.log(parent.parentElement.previousSibling);
 console.log(parent.parentElement.previousElementSibling); // selecciono al padre (nav) y busco el anterior hermano, que es h1
 
+console.log(parent.closest('nav'));
