@@ -1,0 +1,11 @@
+/* NO SE DEBE SELECCIONAR CON ETIQUETAS*/
+
+table {
+    margin-top: 2em;
+    border-collapse: collapse;
+}
+
+th, td, tr {
+    border: 1px solid black;
+    text-align: center;
+}
